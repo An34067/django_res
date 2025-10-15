@@ -60,7 +60,7 @@ class Tables(models.Model):
 class Customers(models.Model):
     phone = models.CharField('Телефон', max_length=20, unique=True)
     full_name = models.CharField('ФИО', max_length=100)
-    email = models.EmailField('Email', blank=True)
+    email = models.EmailField('Email', unique=True)
     total_orders = models.IntegerField('Всего заказов', default=0)
     total_spent = models.DecimalField('Всего потрачено', max_digits=12, decimal_places=2)
     created_at = models.DateTimeField('Дата регистрации', auto_now_add=True)
