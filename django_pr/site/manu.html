@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | Gourmet Haven</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body class="bg-gray-50 font-sans">
+    <custom-navbar></custom-navbar>
+
+    <section class="py-16 px-4 max-w-7xl mx-auto">
+        <div class="text-center mb-16">
+            <h1 class="text-4xl font-bold text-gray-800 mb-4">Our Menu</h1>
+            <p class="text-gray-600 max-w-2xl mx-auto">Explore our culinary creations crafted with passion and finest ingredients</p>
+        </div>
+
+        <!-- Menu Filters -->
+        <div class="flex flex-wrap justify-center gap-4 mb-12">
+            <button class="px-6 py-2 bg-primary text-white rounded-full font-medium">All</button>
+            <button class="px-6 py-2 bg-white hover:bg-gray-100 text-gray-800 rounded-full font-medium">Starters</button>
+            <button class="px-6 py-2 bg-white hover:bg-gray-100 text-gray-800 rounded-full font-medium">Mains</button>
+            <button class="px-6 py-2 bg-white hover:bg-gray-100 text-gray-800 rounded-full font-medium">Desserts</button>
+            <button class="px-6 py-2 bg-white hover:bg-gray-100 text-gray-800 rounded-full font-medium">Drinks</button>
+        </div>
+
+        <!-- Menu Items -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Starter -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                <img src="http://static.photos/food/640x360/20" alt="Starter" class="w-full h-56 object-cover">
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-xl font-bold text-gray-800">Truffle Arancini</h3>
+                        <span class="text-primary font-bold">$14</span>
+                    </div>
+                    <p class="text-gray-600 mb-4">Crispy risotto balls with black truffle and mozzarella center</p>
+                    <div class="flex justify-between items-center">
+                        <div class="flex items-center text-gray-500">
+                            <i data-feather="clock" class="w-4 h-4 mr-1"></i>
+                            <span class="text-sm">15 min</span>
+                        </div>
+                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Available</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Course -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                <img src="http://static.photos/food/640x360/21" alt="Main Course" class="w-full h-56 object-cover">
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-xl font-bold text-gray-800">Seared Scallops</h3>
+                        <span class="text-primary font-bold">$32</span>
+                    </div>
+                    <p class="text-gray-600 mb-4">Perfectly seared scallops with cauliflower purée and pancetta crisp</p>
+                    <div class="flex justify-between items-center">
+                        <div class="flex items-center text-gray-500">
+                            <i data-feather="clock" class="w-4 h-4 mr-1"></i>
+                            <span class="text-sm">20 min</span>
+                        </div>
+                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Available</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dessert -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                <img src="http://static.photos/food/640x360/22" alt="Dessert" class="w-full h-56 object-cover">
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-xl font-bold text-gray-800">Crème Brûlée</h3>
+                        <span class="text-primary font-bold">$12</span>
+                    </div>
+                    <p class="text-gray-600 mb-4">Classic vanilla bean custard with caramelized sugar crust</p>
+                    <div class="flex justify-between items-center">
+                        <div class="flex items-center text-gray-500">
+                            <i data-feather="clock" class="w-4 h-4 mr-1"></i>
+                            <span class="text-sm">10 min</span>
+                        </div>
+                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Available</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Another Starter -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                <img src="http://static.photos/food/640x360/23" alt="Starter" class="w-full h-56 object-cover">
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-xl font-bold text-gray-800">Burrata Salad</h3>
+                        <span class="text-primary font-bold">$16</span>
+                    </div>
+                    <p class="text-gray-600 mb-4">Creamy burrata with heirloom tomatoes, basil and balsamic glaze</p>
+                    <div class="flex justify-between items-center">
+                        <div class="flex items-center text-gray-500">
+                            <i data-feather="clock" class="w-4 h-4 mr-1"></i>
+                            <span class="text-sm">10 min</span>
+                        </div>
+                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Available</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Another Main Course -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                <img src="http://static.photos/food/640x360/24" alt="Main Course" class="w-full h-56 object-cover">
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-xl font-bold text-gray-800">Duck Confit</h3>
+                        <span class="text-primary font-bold">$38</span>
+                    </div>
+                    <p class="text-gray-600 mb-4">Tender duck leg with cherry reduction, roasted potatoes and seasonal vegetables</p>
+                    <div class="flex justify-between items-center">
+                        <div class="flex items-center text-gray-500">
+                            <i data-feather="clock" class="w-4 h-4 mr-1"></i>
+                            <span class="text-sm">25 min</span>
+                        </div>
+                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Available</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Drink -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                <img src="http://static.photos/food/640x360/25" alt="Drink" class="w-full h-56 object-cover">
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-2">
+                        <h3 class="text-xl font-bold text-gray-800">Signature Cocktail</h3>
+                        <span class="text-primary font-bold">$14</span>
+                    </div>
+                    <p class="text-gray-600 mb-4">Gin, elderflower liqueur, fresh lime juice and cucumber</p>
+                    <div class="flex justify-between items-center">
+                        <div class="flex items-center text-gray-500">
+                            <i data-feather="clock" class="w-4 h-4 mr-1"></i>
+                            <span class="text-sm">5 min</span>
+                        </div>
+                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Available</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <custom-footer></custom-footer>
+
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>feather.replace();</script>
+</body>
+</html>
