@@ -1,7 +1,8 @@
 from django.urls import path, include
-from .views import hello
+from d_app import views
 
 urlpatterns = [
-    #path('admin/', admin.site.urls),
-    path('hello/', hello)
+    path('', views.home, name='home'),
+    path('menu/', views.menu, name='menu'),
+    path('reservation/', views.reservation, name='reservation'),
 ]

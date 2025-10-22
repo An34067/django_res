@@ -1,0 +1,19 @@
+h1{
+    color: darkturquoise;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    font-family: Georgia;
+    gap: 1.5rem
+}
+.nav-list{
+    display: flex;
+    font-family: Georgia;
+    gap: 1.5rem
+}
+.container{
+    display: flex;
+    align-items: center;
+    background-color: cornsilk;
+}
