@@ -1,19 +1,101 @@
-h1{
-    color: darkturquoise;
+h1 {
+  color: rgb(212, 144, 18);
+  margin: 0;
 }
-.nav-list{
-    display: flex;
-    list-style: none;
-    font-family: Georgia;
-    gap: 1.5rem
+
+.navbar {
+  height: 50px;
+  background-color: none;
 }
-.nav-list{
-    display: flex;
-    font-family: Georgia;
-    gap: 1.5rem
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5px;
 }
-.container{
-    display: flex;
-    align-items: center;
-    background-color: cornsilk;
+
+.nav-section {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  font-family: Georgia;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #333;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  font-weight: normal;
+}
+
+.nav-item a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #000;
+  text-decoration: none;
+}
+
+.book-btn {
+  background-color: rgb(212, 144, 18);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Georgia;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+.img {
+  width: 500px;
+}
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+.hero-section {
+  position: relative;
+  height: 100vh;
+  background-image: url("https://i.pinimg.com/originals/8b/ed/28/8bed28fea9872902b58bd4eb8585115f.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-content {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.hero-title {
+  font-size: 5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.hero-subtitles {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* .book-btn:hover {
+    background-color: #00b7bd;
+} */

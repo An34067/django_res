@@ -13,3 +13,6 @@ def menu(request):
 
 def reservation(request):
     return render(request, 'home.html')
+
+def account(request):
+    return render(request, 'home.html')
