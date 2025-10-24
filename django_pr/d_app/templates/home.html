@@ -1,19 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{% block tab_header %}Les Plaisirs Secrets{% endblock %}</title>
-  </head>
-  <body>
-    {% include "navigation.html" %}
-    <div class="hero-section">
-      <div class="hero-content">
-        <h1 class="hero-title">Les Plaisirs Secrets</h1>
-        <h3 class="hero-subtitles">
-          Experience culinary excellence in an elegant atmosphere
-        </h3>
-      </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{% block tab_header %}Les Plaisirs Secrets{% endblock %}</title>
+</head>
+
+<body>
+  {% include "navigation.html" %}
+  <div class="hero-section">
+    <div class="hero-content">
+      <h1 class="hero-title">Les Plaisirs Secrets</h1>
+      <h3 class="hero-subtitles">
+        Experience culinary excellence in an elegant atmosphere
+      </h3>
     </div>
-  </body>
+  </div>
+  <div class="history-section">
+    <div class="history-content">
+      <h1 class="history-title">Our Story</h1>
+      <h2 class="history-subtitles">
+        Founded in 2010, Les Plaisirs Secrets has been serving exquisite dishes crafted width<br>
+        localy-sourced ingredients and passion. Our chef brings 20 years of international<br>
+        culinary experience to create unforgettable dining experiences.
+      </h2>
+    </div>
+  </div>
+  <div class="info-section">
+    <div class="hours">
+      <strong>Open Hours</strong><br>
+      Mon-Fri: 11am - 11pm<br>
+      Weekend: 10am - 12am
+    </div>
+    <div class="location">
+      <strong>Location</strong><br>
+      123 Gourment Street<br>
+      Foodville, 10001
+    </div>
+  </div>
+</body>
+
 </html>

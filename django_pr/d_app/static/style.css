@@ -46,17 +46,6 @@ h1 {
   text-decoration: none;
 }
 
-.book-btn {
-  background-color: rgb(212, 144, 18);
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 4px;
-  cursor: pointer;
-  font-family: Georgia;
-  font-size: 16px;
-  transition: background-color 0.3s ease;
-}
 .img {
   width: 500px;
 }
@@ -96,6 +85,59 @@ h1 {
   text-align: center;
 }
 
-/* .book-btn:hover {
-    background-color: #00b7bd;
-} */
+.book-btn:hover {
+    background-color: rgb(200, 100, 18);
+}
+.book-btn {
+  background-color: rgb(212, 144, 18);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Georgia;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.history-section{
+  margin: 10rem;
+}
+.history-content{
+  position: relative;
+}
+.history-title{
+  color: #000;
+  font-size: 3rem;
+}
+.history-subtitles{
+  color: #868686;
+  font-size: 1.5rem;
+}
+.hours{
+  background: #f9f9f9;
+  padding: 15px;
+  margin: 20px 0;
+  border: 1px solid black;
+  width: 200px;
+  height: 100px;
+  text-align: justify;
+}
+.location{
+  background: #f9f9f9;
+  padding: 15px;
+  margin: 20px 0;
+  border: 1px solid black;
+  width: 200px;
+  height: 100px;
+  text-align: justify;
+}
+.info-section{
+  display: flex;
+  gap: 20px;
+}
+.menu-section{
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 5px;
+}
